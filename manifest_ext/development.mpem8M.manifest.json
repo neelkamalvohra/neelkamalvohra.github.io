@@ -8,7 +8,7 @@
             "improv": true,
             "parts": [
                 {
-                    "path": "https://neelkamalvohra.github.io/MPEM_Uploader/firmware/mpem32/mpem328M.factory.bin",
+                    "path": "https://neelkamalvohra.github.io/firmware/mpem32/mpem328M.factory.bin",
                     "offset": 0
                 }
             ]

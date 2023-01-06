@@ -1,0 +1,48 @@
+{
+    "release": [
+        {
+            "path": "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/release.mpem4Mv1.manifest.json",
+            "name": "MPEM 4M v1",
+            "chipFamilies": [
+                "ESP32"
+            ]
+        },
+        {
+            "path": "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/release.mpem4Mv2.manifest.json",
+            "name": "MPEM 4M v2",
+            "chipFamilies": [
+                "ESP32"
+            ]
+        },
+        {
+            "path": "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/release.mpem8M.manifest.json",
+            "name": "MPEM 8M",
+            "chipFamilies": [
+                "ESP32"
+            ]
+        }
+    ],
+    "development": [
+        {
+            "path": "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/development.mpem4Mv1.manifest.json",
+            "name": "MPEM 4M v1",
+            "chipFamilies": [
+                "ESP32"
+            ]
+        },
+        {
+            "path": "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/development.mpem4Mv2.manifest.json",
+            "name": "MPEM 4M v2",
+            "chipFamilies": [
+                "ESP32"
+            ]
+        },
+        {
+            "path": "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/development.mpem8M.manifest.json",
+            "name": "MPEM 8M",
+            "chipFamilies": [
+                "ESP32"
+            ]
+        }
+    ]
+}

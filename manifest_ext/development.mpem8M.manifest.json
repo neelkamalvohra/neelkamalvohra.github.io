@@ -1,0 +1,17 @@
+{
+    "name": "MPEM 8M",
+    "new_install_prompt_erase": true,
+    "new_install_improv_wait_time": 10,
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "improv": true,
+            "parts": [
+                {
+                    "path": "https://neelkamalvohra.github.io/MPEM_Uploader/firmware/mpem32/mpem328M.factory.bin",
+                    "offset": 0
+                }
+            ]
+        }
+    ]
+}

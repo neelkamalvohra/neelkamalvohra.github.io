@@ -1,0 +1,17 @@
+{
+    "name": "MPEM 4M v2",
+    "new_install_prompt_erase": true,
+    "new_install_improv_wait_time": 10,
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "improv": true,
+            "parts": [
+                {
+                    "path": "https://neelkamalvohra.github.io/MPEM_Uploader/release-firmware/mpem32/mpem324Mv2.factory.bin",
+                    "offset": 0
+                }
+            ]
+        }
+    ]
+}

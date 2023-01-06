@@ -33,7 +33,7 @@
     ></script>
     <script>
         function makeSelector(){
-            fetch('https://neelkamalvohra.github.io/MPEM_Uploader/manifests_new.json')
+            fetch('https://neelkamalvohra.github.io/manifests_new.json')
             .then(response => response.json())
             .then(data => make_select(data));
         
@@ -77,7 +77,7 @@
                 if(button.shadowRoot.firstChild.name == 'activate'){
                     //success: add the select picker and some info
                     const selectEl = document.querySelector("#pick-variant-selector");
-                    button.manifest = "https://neelkamalvohra.github.io/MPEM_Uploader/manifest_ext/release.mpem.manifest.json";
+                    button.manifest = "https://neelkamalvohra.github.io/manifest_ext/release.mpem.manifest.json";
                     selectEl.addEventListener("change", () => {
                         button.manifest = selectEl.value;
                         console.log(button.manifest);
@@ -99,7 +99,7 @@
     <ol style='text-align:left'>
         <li>Connect the ESP device to your computer</br>using USB or serial-to-USB adapter</li></br>
         <li>Select the firmware variant suitable for</br>your device</li></br>
-        <li>Hit "Install" and select the correct port</br>or find help if <a href="https://neelkamalvohra.github.io/MPEM_Uploader/docs/Getting-Started/" target='_blank' style='color:#aaa;'>no device found</a></li>
+        <li>Hit "Install" and select the correct port</br>or find help if <a href="https://neelkamalvohra.github.io/docs/Getting-Started/" target='_blank' style='color:#aaa;'>no device found</a></li>
         </ol>
         </br>
       </br>
